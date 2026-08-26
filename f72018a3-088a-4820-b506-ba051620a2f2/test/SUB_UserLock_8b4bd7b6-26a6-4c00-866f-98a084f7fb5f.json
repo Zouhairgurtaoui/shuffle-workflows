@@ -308,7 +308,7 @@
       "source_id": "54b7cc58-74ef-485f-831d-2e0cce4b51d8",
       "label": "",
       "has_errors": false,
-      "conditions": null,
+      "conditions": [],
       "decorator": false,
       "parent_controlled": false,
       "source_parent": ""
@@ -320,7 +320,7 @@
       "app_name": "Webhook",
       "description": "Custom HTTP input trigger",
       "long_description": "Execute a workflow with an unauthicated POST request",
-      "status": "running",
+      "status": "SUCCESS",
       "app_version": "1.0.0",
       "errors": [],
       "id": "54b7cc58-74ef-485f-831d-2e0cce4b51d8",
@@ -549,9 +549,12 @@
     "skip_notifications": false
   },
   "created": 1787163821,
-  "edited": 1787430230,
+  "edited": 1787430646,
   "last_runtime": 0,
   "due_date": 1787180400,
+  "errors": [
+    "Trigger Webhook needs to be started"
+  ],
   "id": "8b4bd7b6-26a6-4c00-866f-98a084f7fb5f",
   "is_valid": true,
   "name": "SUB_UserLock",
