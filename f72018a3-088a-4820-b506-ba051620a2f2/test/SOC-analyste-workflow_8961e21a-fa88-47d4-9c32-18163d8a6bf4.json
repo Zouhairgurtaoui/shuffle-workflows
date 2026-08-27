@@ -2604,7 +2604,7 @@
     "skip_notifications": false
   },
   "created": 1786473488,
-  "edited": 1787849619,
+  "edited": 1787851655,
   "last_runtime": 0,
   "due_date": 1786489200,
   "errors": [
@@ -2749,17 +2749,27 @@
   "updated_by": "admin",
   "validated": false,
   "validation": {
-    "valid": true,
-    "changed_at": 1787849624000,
+    "valid": false,
+    "changed_at": 1787851721000,
     "last_valid": 1787849624000,
     "validation_ran": true,
     "notifications_created": 0,
     "environment": "Shuffle",
     "workflow_id": "",
-    "execution_id": "d5d3f665-3462-4bd1-aec9-8c02dea03679",
+    "execution_id": "57005a34-d939-4246-bf7f-ccb2eecb65fb",
     "node_id": "",
-    "total_problems": 0,
-    "errors": [],
+    "total_problems": 1,
+    "errors": [
+      {
+        "order": 0,
+        "action_id": "b9d5c15d-1bc0-4a4b-990c-b83eb4fa6892",
+        "app_id": "368274c62b28039f34b775bc7f5a5da9",
+        "app_name": "Discord",
+        "error": "Status 400 for action 'Discord'. Are the fields correct?",
+        "type": "configuration",
+        "waiting": false
+      }
+    ],
     "subflow_apps": []
   },
   "parentorg_workflow": "",
