@@ -915,7 +915,7 @@
       },
       "position": {
         "x": -508.8476045111403,
-        "y": 544.9461579123655
+        "y": 530.6604436266512
       },
       "authentication_id": "",
       "category": "Other",
@@ -2604,7 +2604,7 @@
     "skip_notifications": false
   },
   "created": 1786473488,
-  "edited": 1787845755,
+  "edited": 1787846995,
   "last_runtime": 0,
   "due_date": 1786489200,
   "errors": [
@@ -2750,22 +2750,22 @@
   "validated": false,
   "validation": {
     "valid": false,
-    "changed_at": 1787845845000,
+    "changed_at": 1787846792000,
     "last_valid": 1787766054000,
     "validation_ran": true,
     "notifications_created": 0,
     "environment": "Shuffle",
     "workflow_id": "",
-    "execution_id": "c6064eb0-f907-4bff-9161-8bc294330d12",
+    "execution_id": "a1a476c4-dede-4c31-8ec7-cb543b7e42f1",
     "node_id": "",
     "total_problems": 1,
     "errors": [
       {
         "order": 0,
-        "action_id": "4bf28526-3322-48b6-ad1f-36eb69b9f184",
-        "app_id": "70b7b44a-aad6-4b42-b723-106bbafc6edd",
-        "app_name": "Shuffle Tools",
-        "error": "Success is false: Check node for more failure details",
+        "action_id": "b9d5c15d-1bc0-4a4b-990c-b83eb4fa6892",
+        "app_id": "368274c62b28039f34b775bc7f5a5da9",
+        "app_name": "Discord",
+        "error": "Status 400 for action 'Discord'. Are the fields correct?",
         "type": "configuration",
         "waiting": false
       }
