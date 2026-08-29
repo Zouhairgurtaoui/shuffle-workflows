@@ -70,7 +70,7 @@
           "id": "TOGGLED",
           "name": "body",
           "example": "{\n  \"alert\": \"${alert}\",\n  \"arguments\": \"${arguments}\",\n  \"command\": \"${command}\",\n  \"custom\": \"${custom}\"\n}",
-          "value": "{\n  \"command\": \"!$exec.command\",\n  \"custom\": false,\n  \"alert\": {\n    \"data\": {\n      \"user\": \"$$exec.username\",\n      \"win\": {\n        \"eventdata\": {\n          \"targetUserName\": \"$exec.username\"\n        }\n      }\n    }\n  }\n}",
+          "value": "{\n  \"command\": \"!$exec.command\",\n  \"custom\": false,\n  \"alert\": {\n    \"data\": {\n      \"user\": \"$exec.username\",\n      \"win\": {\n        \"eventdata\": {\n          \"targetUserName\": \"$exec.username\"\n        }\n      }\n    }\n  }\n}",
           "multiline": true,
           "multiselect": false,
           "options": null,
