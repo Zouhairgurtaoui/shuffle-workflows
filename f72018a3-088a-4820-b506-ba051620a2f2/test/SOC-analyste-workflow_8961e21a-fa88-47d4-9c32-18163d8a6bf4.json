@@ -413,7 +413,7 @@
           "id": "",
           "name": "body",
           "example": "{\n  \"username\": \"Webhook\",\n  \"avatar_url\": \"https://i.imgur.com/4M34hi2.png\",\n  \"content\": \"Text message. Up to 2000 characters.\",\n  \"embeds\": [\n    {\n      \"author\": {\n        \"name\": \"Birdie♫\",\n        \"url\": \"https://www.reddit.com/r/cats/\",\n        \"icon_url\": \"https://i.imgur.com/R66g1Pe.jpg\"\n      },\n      \"title\": \"Title\",\n      \"url\": \"https://google.com/\",\n      \"description\": \"Text message. You can use Markdown here. *Italic* **bold** __underline__ ~~strikeout~~ [hyperlink](https://google.com) `code`\",\n      \"color\": 15258703,\n      \"fields\": [\n        {\n          \"name\": \"Text\",\n          \"value\": \"More text\",\n          \"inline\": true\n        },\n        {\n          \"name\": \"Even more text\",\n          \"value\": \"Yup\",\n          \"inline\": true\n        },\n        {\n          \"name\": \"Use `\\\"inline\\\": true` parameter, if you want to display fields in the same line.\",\n          \"value\": \"okay...\"\n        },\n        {\n          \"name\": \"Thanks!\",\n          \"value\": \"You're welcome :wink:\"\n        }\n      ],\n      \"thumbnail\": {\n        \"url\": \"https://upload.wikimedia.org/wikipedia/commons/3/38/4-Nature-Wallpapers-2014-1_ukaavUI.jpg\"\n      },\n      \"image\": {\n        \"url\": \"https://upload.wikimedia.org/wikipedia/commons/5/5a/A_picture_from_China_every_day_108.jpg\"\n      },\n      \"footer\": {\n        \"text\": \"Woah! So cool! :smirk:\",\n        \"icon_url\": \"https://i.imgur.com/fKL31aD.jpg\"\n      }\n    }\n  ]\n}",
-          "value": "{\n  \"embeds\": [{\n    \"title\": \"🚨 Active Directory Threat Detected\",\n    \"color\": 16711680,\n    \"fields\": [\n      {\n        \"name\": \"Rule\",\n        \"value\": \"$exec.all_fields.rule.description\",\n        \"inline\": true\n      },\n      {\n        \"name\": \"Level\",\n        \"value\": \"$exec.all_fields.rule.level\",\n        \"inline\": true\n      },\n      {\n        \"name\": \"MITRE ID\",\n        \"value\": \"$exec.all_fields.rule.mitre.id\",\n        \"inline\": true\n      },\n      {\n        \"name\": \"Target User\",\n        \"value\": \"$exec.all_fields.data.win.eventdata.targetUserName\",\n        \"inline\": true\n      }\n    ]\n  }]\n}",
+          "value": "{\n  \"embeds\": [{\n    \"title\": \"🚨 Active Directory Threat Detected\",\n    \"color\": 16711680,\n    \"fields\": [\n      {\n        \"name\": \"Rule\",\n        \"value\": \"$exec.all_fields.rule.description\",\n        \"inline\": true\n      },\n      {\n        \"name\": \"Level\",\n        \"value\": \"$exec.all_fields.rule.level\",\n        \"inline\": true\n      },\n      {\n        \"name\": \"MITRE ID\",\n        \"value\": \"$exec.all_fields.rule.mitre.id.#\",\n        \"inline\": true\n      },\n      {\n        \"name\": \"Target User\",\n        \"value\": \"$exec.all_fields.data.win.eventdata.targetUserName\",\n        \"inline\": true\n      }\n    ]\n  }]\n}",
           "multiline": true,
           "multiselect": false,
           "options": null,
@@ -2604,7 +2604,7 @@
     "skip_notifications": false
   },
   "created": 1786473488,
-  "edited": 1787969241,
+  "edited": 1788014992,
   "last_runtime": 0,
   "due_date": 1786489200,
   "errors": [
@@ -2749,27 +2749,17 @@
   "updated_by": "admin",
   "validated": false,
   "validation": {
-    "valid": false,
-    "changed_at": 1787851721000,
-    "last_valid": 1787849624000,
+    "valid": true,
+    "changed_at": 1788014852000,
+    "last_valid": 1788014852000,
     "validation_ran": true,
     "notifications_created": 0,
     "environment": "Shuffle",
     "workflow_id": "",
-    "execution_id": "57005a34-d939-4246-bf7f-ccb2eecb65fb",
+    "execution_id": "f2a11484-1ea0-4763-bc4f-da50f487fc99",
     "node_id": "",
-    "total_problems": 1,
-    "errors": [
-      {
-        "order": 0,
-        "action_id": "b9d5c15d-1bc0-4a4b-990c-b83eb4fa6892",
-        "app_id": "368274c62b28039f34b775bc7f5a5da9",
-        "app_name": "Discord",
-        "error": "Status 400 for action 'Discord'. Are the fields correct?",
-        "type": "configuration",
-        "waiting": false
-      }
-    ],
+    "total_problems": 0,
+    "errors": [],
     "subflow_apps": []
   },
   "parentorg_workflow": "",
