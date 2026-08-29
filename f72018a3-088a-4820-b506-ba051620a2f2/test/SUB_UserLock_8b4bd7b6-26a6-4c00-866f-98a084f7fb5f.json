@@ -91,10 +91,14 @@
             },
             {
               "key": "${command}",
-              "value": "disable-ad-user"
+              "value": "!disable-ad-user"
             },
             {
               "key": "${arguments}",
+              "value": "$exec.username"
+            },
+            {
+              "key": "${alert}",
               "value": "$exec.username"
             }
           ],
@@ -549,7 +553,7 @@
     "skip_notifications": false
   },
   "created": 1787163821,
-  "edited": 1787430646,
+  "edited": 1787965631,
   "last_runtime": 0,
   "due_date": 1787180400,
   "errors": [
