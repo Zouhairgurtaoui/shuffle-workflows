@@ -1309,7 +1309,7 @@
       "source_id": "73897c37-5860-489b-88b9-5ea338a7388d",
       "label": "",
       "has_errors": false,
-      "conditions": null,
+      "conditions": [],
       "decorator": false,
       "parent_controlled": false,
       "source_parent": ""
@@ -1461,7 +1461,7 @@
       "source_id": "63f2296c-0ce5-40a9-80e8-5d6102c6059e",
       "label": "",
       "has_errors": false,
-      "conditions": null,
+      "conditions": [],
       "decorator": false,
       "parent_controlled": false,
       "source_parent": ""
@@ -1951,7 +1951,7 @@
     "skip_notifications": false
   },
   "created": 1786473488,
-  "edited": 1788042170,
+  "edited": 1788047837,
   "last_runtime": 0,
   "due_date": 1786489200,
   "errors": [
@@ -2097,13 +2097,13 @@
   "validated": false,
   "validation": {
     "valid": true,
-    "changed_at": 1788043110000,
-    "last_valid": 1788043110000,
+    "changed_at": 1788046530000,
+    "last_valid": 1788046530000,
     "validation_ran": true,
     "notifications_created": 0,
     "environment": "Shuffle",
     "workflow_id": "",
-    "execution_id": "083957cc-4533-4bcc-b98f-b2d00fec3309",
+    "execution_id": "ca4e1686-2c97-4651-a6f2-e6e7b433c92c",
     "node_id": "",
     "total_problems": 0,
     "errors": [],
