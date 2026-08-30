@@ -1124,7 +1124,7 @@
           "id": "",
           "name": "agents_list",
           "example": "",
-          "value": "$filter.message.agent_id",
+          "value": "001",
           "multiline": false,
           "multiselect": false,
           "options": null,
