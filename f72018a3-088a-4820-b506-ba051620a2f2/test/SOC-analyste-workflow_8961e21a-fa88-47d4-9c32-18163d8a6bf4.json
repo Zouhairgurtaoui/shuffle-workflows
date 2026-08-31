@@ -998,7 +998,7 @@
           "id": "TOGGLED",
           "name": "body",
           "example": "{\n  \"alert\": \"${alert}\",\n  \"arguments\": \"${arguments}\",\n  \"command\": \"${command}\",\n  \"custom\": \"${custom}\"\n}",
-          "value": "{\n  \"command\": \"!$filter.message.command\",\n  \"arguments\": [\"$filter.message.srcip\"],\n  \"alert\": {\n    \"data\": {\n      \"srcip\": \"$filter.message.srcip\",\n      \"user\": \"$filter.message.username\",\n      \"agent_id\": \"$filter.message.agent_id\"\n    }\n  }\n}",
+          "value": "{\n  \"command\": \"!$filter.message.command\",\n  \"arguments\": [\"$filter.message.srcip\",\"$filter.message.username\",\"$filter.message.agent_id\"],\n  \"alert\": {\n    \"data\": {\n      \"srcip\": \"$filter.message.srcip\",\n      \"user\": \"$filter.message.username\",\n      \"agent_id\": \"$filter.message.agent_id\"\n    }\n  }\n}",
           "multiline": true,
           "multiselect": false,
           "options": null,
@@ -1951,7 +1951,7 @@
     "skip_notifications": false
   },
   "created": 1786473488,
-  "edited": 1788193238,
+  "edited": 1788217281,
   "last_runtime": 0,
   "due_date": 1786489200,
   "errors": [
