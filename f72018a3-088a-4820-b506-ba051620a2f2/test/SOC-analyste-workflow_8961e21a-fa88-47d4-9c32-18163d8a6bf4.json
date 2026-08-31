@@ -1951,7 +1951,7 @@
     "skip_notifications": false
   },
   "created": 1786473488,
-  "edited": 1788109041,
+  "edited": 1788193238,
   "last_runtime": 0,
   "due_date": 1786489200,
   "errors": [
@@ -2096,27 +2096,17 @@
   "updated_by": "admin",
   "validated": false,
   "validation": {
-    "valid": false,
-    "changed_at": 1788192203000,
-    "last_valid": 1788053882000,
+    "valid": true,
+    "changed_at": 1788214690000,
+    "last_valid": 1788214690000,
     "validation_ran": true,
     "notifications_created": 0,
     "environment": "Shuffle",
     "workflow_id": "",
-    "execution_id": "8a56d746-4688-4a65-bb0d-bcfaa319f708",
+    "execution_id": "a7392508-d1e4-45a8-98e6-b60f0bc6708f",
     "node_id": "",
-    "total_problems": 1,
-    "errors": [
-      {
-        "order": 0,
-        "action_id": "179f105b-b97c-482c-a749-e7ee61d59c0a",
-        "app_id": "636df5ef34fe6d0c79ce8b9f00ac9194",
-        "app_name": "Wazuh",
-        "error": "Status 400 for action 'Wazuh'. Are the fields correct?",
-        "type": "configuration",
-        "waiting": false
-      }
-    ],
+    "total_problems": 0,
+    "errors": [],
     "subflow_apps": []
   },
   "parentorg_workflow": "",
