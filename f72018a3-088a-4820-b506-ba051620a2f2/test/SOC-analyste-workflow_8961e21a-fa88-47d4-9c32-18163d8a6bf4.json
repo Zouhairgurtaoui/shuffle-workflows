@@ -998,7 +998,7 @@
           "id": "TOGGLED",
           "name": "body",
           "example": "{\n  \"alert\": \"${alert}\",\n  \"arguments\": \"${arguments}\",\n  \"command\": \"${command}\",\n  \"custom\": \"${custom}\"\n}",
-          "value": "{\n  \"command\": \"$filter.message.command0\",\n  \"arguments\":[\"$filter.message.srcip\"],\n  \"alert\": {\n   \"data\":{\n      \"srcip\": \"$filter.message.srcip\",\n      \"user\": \"$filter.message.username\",\n       \"agent_id\":\"$filter.message.agent_id\"\n}\n  }\n}",
+          "value": "{\n  \"command\": \"${filter.message.command}0\",\n  \"arguments\": [\"$filter.message.srcip\"],\n  \"alert\": {\n    \"data\": {\n      \"srcip\": \"$filter.message.srcip\",\n      \"user\": \"$filter.message.username\",\n      \"agent_id\": \"$filter.message.agent_id\"\n    }\n  }\n}",
           "multiline": true,
           "multiselect": false,
           "options": null,
@@ -1951,7 +1951,7 @@
     "skip_notifications": false
   },
   "created": 1786473488,
-  "edited": 1788057139,
+  "edited": 1788109041,
   "last_runtime": 0,
   "due_date": 1786489200,
   "errors": [
@@ -2096,17 +2096,27 @@
   "updated_by": "admin",
   "validated": false,
   "validation": {
-    "valid": true,
-    "changed_at": 1788053882000,
+    "valid": false,
+    "changed_at": 1788192203000,
     "last_valid": 1788053882000,
     "validation_ran": true,
     "notifications_created": 0,
     "environment": "Shuffle",
     "workflow_id": "",
-    "execution_id": "c5436977-5ebf-4b8e-b28d-03f3460183a4",
+    "execution_id": "8a56d746-4688-4a65-bb0d-bcfaa319f708",
     "node_id": "",
-    "total_problems": 0,
-    "errors": [],
+    "total_problems": 1,
+    "errors": [
+      {
+        "order": 0,
+        "action_id": "179f105b-b97c-482c-a749-e7ee61d59c0a",
+        "app_id": "636df5ef34fe6d0c79ce8b9f00ac9194",
+        "app_name": "Wazuh",
+        "error": "Status 400 for action 'Wazuh'. Are the fields correct?",
+        "type": "configuration",
+        "waiting": false
+      }
+    ],
     "subflow_apps": []
   },
   "parentorg_workflow": "",
