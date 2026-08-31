@@ -324,7 +324,7 @@
       "app_name": "Webhook",
       "description": "Custom HTTP input trigger",
       "long_description": "Execute a workflow with an unauthicated POST request",
-      "status": "SUCCESS",
+      "status": "stopped",
       "app_version": "1.0.0",
       "errors": [],
       "id": "54b7cc58-74ef-485f-831d-2e0cce4b51d8",
@@ -553,7 +553,7 @@
     "skip_notifications": false
   },
   "created": 1787163821,
-  "edited": 1788018789,
+  "edited": 1788042243,
   "last_runtime": 0,
   "due_date": 1787180400,
   "errors": [
