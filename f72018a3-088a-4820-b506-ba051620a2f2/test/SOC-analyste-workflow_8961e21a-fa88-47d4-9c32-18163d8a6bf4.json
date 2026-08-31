@@ -998,7 +998,7 @@
           "id": "TOGGLED",
           "name": "body",
           "example": "{\n  \"alert\": \"${alert}\",\n  \"arguments\": \"${arguments}\",\n  \"command\": \"${command}\",\n  \"custom\": \"${custom}\"\n}",
-          "value": "{\n  \"command\": \"${filter.message.command}0\",\n  \"arguments\": [\"$filter.message.srcip\"],\n  \"alert\": {\n    \"data\": {\n      \"srcip\": \"$filter.message.srcip\",\n      \"user\": \"$filter.message.username\",\n      \"agent_id\": \"$filter.message.agent_id\"\n    }\n  }\n}",
+          "value": "{\n  \"command\": \"!$filter.message.command\",\n  \"arguments\": [\"$filter.message.srcip\"],\n  \"alert\": {\n    \"data\": {\n      \"srcip\": \"$filter.message.srcip\",\n      \"user\": \"$filter.message.username\",\n      \"agent_id\": \"$filter.message.agent_id\"\n    }\n  }\n}",
           "multiline": true,
           "multiselect": false,
           "options": null,
