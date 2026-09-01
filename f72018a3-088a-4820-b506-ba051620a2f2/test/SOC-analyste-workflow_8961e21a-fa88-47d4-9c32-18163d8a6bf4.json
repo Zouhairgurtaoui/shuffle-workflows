@@ -302,7 +302,7 @@
           "id": "",
           "name": "input_data",
           "example": "This is some text \u003cwith.com\u003e a domain that is with.com",
-          "value": "$exec.data.win.eventdata.hashes",
+          "value": "$exec.all_fields.full_log.win.eventdata.hashes",
           "multiline": true,
           "multiselect": false,
           "options": null,
@@ -1360,7 +1360,7 @@
             "id": "06c73cb4-b34a-47bf-a09f-d42e8c318025",
             "name": "source",
             "example": "",
-            "value": "$exec.data.win.eventdata.hashes",
+            "value": "$exec.all_fields.full_log.win.eventdata.hashes",
             "multiline": false,
             "multiselect": false,
             "options": null,
@@ -1951,7 +1951,7 @@
     "skip_notifications": false
   },
   "created": 1786473488,
-  "edited": 1788225219,
+  "edited": 1788228913,
   "last_runtime": 0,
   "due_date": 1786489200,
   "errors": [
@@ -2096,27 +2096,17 @@
   "updated_by": "admin",
   "validated": false,
   "validation": {
-    "valid": false,
-    "changed_at": 1788227359000,
-    "last_valid": 1788222652000,
+    "valid": true,
+    "changed_at": 1788279143000,
+    "last_valid": 1788279143000,
     "validation_ran": true,
     "notifications_created": 0,
     "environment": "Shuffle",
     "workflow_id": "",
-    "execution_id": "21f5901e-2b67-4c92-aa3f-061baac1c7a5",
+    "execution_id": "88dd3d87-0ebf-45b1-bf2b-5856e157ad11",
     "node_id": "",
-    "total_problems": 1,
-    "errors": [
-      {
-        "order": 0,
-        "action_id": "4bf28526-3322-48b6-ad1f-36eb69b9f184",
-        "app_id": "70b7b44a-aad6-4b42-b723-106bbafc6edd",
-        "app_name": "Shuffle Tools",
-        "error": "Success is false: Check node for more failure details",
-        "type": "configuration",
-        "waiting": false
-      }
-    ],
+    "total_problems": 0,
+    "errors": [],
     "subflow_apps": []
   },
   "parentorg_workflow": "",
